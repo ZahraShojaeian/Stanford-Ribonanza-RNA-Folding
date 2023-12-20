@@ -1,6 +1,6 @@
 # Stanford-Ribonanza-RNA-Folding
-Overview
+# Overview
 Understanding the folding patterns of RNA molecules is crucial for gaining deeper insights into the fundamental workings of nature, the origins of life, and the development of innovative solutions in medicine and biotechnology. This project aims to contribute to this understanding by creating a model capable of predicting the structures of any RNA molecule and generating corresponding chemical mapping profiles.
 
-Goal
+# Goal
 The primary goal of this project is to develop an algorithmic solution that accurately predicts the 3D structures of RNA molecules. By doing so, we aim to facilitate research in various fields, including molecular biology, medicine, and biotechnology. The resulting model can be utilized by biologists and biotechnologists worldwide, offering a valuable tool for advancing scientific discoveries and addressing complex challenges like climate change.
