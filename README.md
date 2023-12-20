@@ -7,4 +7,4 @@ The primary goal of this project is to develop an algorithmic solution that accu
 # Input data
 The training data consists of RNA sequences and the 'reactivity' corresponding to each sequence and some other features such as SNR, SN filter, reactivity, and number of reads. The goal is to predict the corresponding reactivity of each sequence of RNA molecules in the test data.
 # Model
-in this work, a Bidirectional-LSTM model with attention was used to predict the reactivities. 
+In this work, a Bidirectional-LSTM model with attention was used to predict the reactivities. 
