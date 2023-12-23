@@ -23,16 +23,16 @@ Data points with zero values for the Signal-to-Noise (SN) filter are excluded du
 # 4. Confidence Threshold
 To further refine the dataset, a threshold is applied to both the number of reads and the Signal-to-Noise Ratio (SNR). Sequences falling below this threshold are filtered out, focusing on sequences with higher confidence levels for training.
 # Model
-In this work, a Bidirectional-LSTM model with attention was used to predict the reactivities. 
+In this work, a Bidirectional-LSTM(Long Short-Term Memory) model with attention was used to predict the reactivities. 
 # Architecture:
-# Bi-LSTM Layer (Bidirectional Long Short-Term Memory):
+# Bi-LSTM Layer:
 This layer handles input RNA sequences with dimensions (Tx, input_size), where Tx represents the sequence length, and input_size signifies the number of features in the RNA sequence.
 
 # Attention Mechanism:
 The model incorporates an attention mechanism. This dynamic approach significantly enhances the model's ability to assign varying degrees of importance to different positions.
 
 # Post-Attention LSTM Cell: 
-After attention, a Long Short-Term Memory (LSTM) cell processes the attention-weighted context vector, capturing intricate dependencies unveiled by the attention mechanism.
+After attention, an LSTM cell processes the attention-weighted context vector, capturing complex dependencies unveiled by the attention mechanism.
 
 # Output Layer:
 The final output is generated through a Dense layer, predicting reactivity values for each position in the RNA sequence.
