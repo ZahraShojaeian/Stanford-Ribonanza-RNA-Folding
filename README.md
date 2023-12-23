@@ -1,5 +1,5 @@
 # Stanford-Ribonanza-RNA-Folding(Kaggle competition)
-![Alt text]([url](https://www.kaggle.com/competitions/51294/images/header))
+![]([url](https://www.kaggle.com/competitions/51294/images/header))
 
 # Overview
 Understanding the folding patterns of RNA molecules is crucial for gaining deeper insights into the fundamental workings of nature, the origins of life, and the development of innovative solutions in medicine and biotechnology. This project aims to contribute to this understanding by creating a model capable of predicting the structures of any RNA molecule and generating corresponding chemical mapping profiles.
