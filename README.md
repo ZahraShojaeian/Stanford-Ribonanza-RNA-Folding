@@ -24,6 +24,8 @@ Data points with zero values for the Signal-to-Noise (SN) filter are excluded du
 To further refine the dataset, a threshold is applied to both the number of reads and the Signal-to-Noise Ratio (SNR). Sequences falling below this threshold are filtered out, focusing on sequences with higher confidence levels for training.
 # Model
 In this work, a Bidirectional-LSTM(Long Short-Term Memory) model with attention was used to predict the reactivities. 
+![ ](attn_model.png)
+![ ](attn_mechanism.png)
 # Architecture:
 # Bi-LSTM Layer:
 This layer handles input RNA sequences with dimensions (Tx, input_size), where Tx represents the sequence length, and input_size signifies the number of features in the RNA sequence.
