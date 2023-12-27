@@ -25,7 +25,7 @@ To further refine the dataset, a threshold is applied to both the number of read
 ## Model
 In this work, a Bidirectional-LSTM(Long Short-Term Memory) model with attention was used to predict the reactivities. 
 
-<img src="attn_model.png" width="1000">
+<img src="attn_model.png" width="500">
 ### Bi-LSTM Layer:
 This layer handles input RNA sequences with dimensions (Tx, input_size), where Tx represents the sequence length, and input_size signifies the number of features in the RNA sequence.
 
